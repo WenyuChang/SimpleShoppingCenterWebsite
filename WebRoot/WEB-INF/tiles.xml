@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd ">
+<tiles-definitions>
+	<definition name="main" template="layout.jsp">
+		<put-attribute name="mainArea" value="/main/about.jsp" />
+		<put-attribute name="menu" value="/layout/menu.jsp" />
+		<put-attribute name="userInfo" value="/layout/userInfo.jsp" />
+		<put-attribute name="header" value="/layout/head.jsp" />
+		<put-attribute name="bottom" value="/layout/bottom.jsp" />
+	</definition>
+	<definition name="userInfoEdit" template="layout.jsp">
+		<put-attribute name="mainArea" value="/main/userEdit.jsp" />
+		<put-attribute name="menu" value="/layout/menu.jsp" />
+		<put-attribute name="userInfo" value="/layout/userInfo.jsp" />
+		<put-attribute name="header" value="/layout/head.jsp" />
+		<put-attribute name="bottom" value="/layout/bottom.jsp" />
+	</definition>
+	<definition name="showGoods" template="layout.jsp">
+		<put-attribute name="mainArea" value="/main/Goods.jsp" />
+		<put-attribute name="menu" value="/layout/menu.jsp" />
+		<put-attribute name="userInfo" value="/layout/userInfo.jsp" />
+		<put-attribute name="header" value="/layout/head.jsp" />
+		<put-attribute name="bottom" value="/layout/bottom.jsp" />
+	</definition>
+	<definition name="goodsDetail" template="layout.jsp">
+		<put-attribute name="mainArea" value="/main/Detail.jsp" />
+		<put-attribute name="menu" value="/layout/menu.jsp" />
+		<put-attribute name="userInfo" value="/layout/userInfo.jsp" />
+		<put-attribute name="header" value="/layout/head.jsp" />
+		<put-attribute name="bottom" value="/layout/bottom.jsp" />
+	</definition>
+	<definition name="createOrder" template="layout.jsp">
+		<put-attribute name="mainArea" value="/main/newOrder.jsp" />
+		<put-attribute name="menu" value="/layout/menu.jsp" />
+		<put-attribute name="userInfo" value="/layout/userInfo.jsp" />
+		<put-attribute name="header" value="/layout/head.jsp" />
+		<put-attribute name="bottom" value="/layout/bottom.jsp" />
+	</definition>
+	<definition name="showOrders" template="layout.jsp">
+		<put-attribute name="mainArea" value="/main/Orders.jsp" />
+		<put-attribute name="menu" value="/layout/menu.jsp" />
+		<put-attribute name="userInfo" value="/layout/userInfo.jsp" />
+		<put-attribute name="header" value="/layout/head.jsp" />
+		<put-attribute name="bottom" value="/layout/bottom.jsp" />
+	</definition>
+	<definition name="showHistory" template="layout.jsp">
+		<put-attribute name="mainArea" value="/main/OrderHistory.jsp" />
+		<put-attribute name="menu" value="/layout/menu.jsp" />
+		<put-attribute name="userInfo" value="/layout/userInfo.jsp" />
+		<put-attribute name="header" value="/layout/head.jsp" />
+		<put-attribute name="bottom" value="/layout/bottom.jsp" />
+	</definition>
+</tiles-definitions>

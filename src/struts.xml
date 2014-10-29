@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="Shopping" extends="struts-default">
+		<action name="conn">
+			<result>login.jsp</result>
+		</action>
+		<action name="logout" class="Logout.logout">
+			<result>login.jsp</result>
+		</action>
+	</package>
+	<include file="userInfo.xml" />
+	<include file="goodsInfo.xml" />
+	<include file="orderInfo.xml" />
+</struts>
